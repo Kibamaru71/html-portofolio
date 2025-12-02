@@ -1,0 +1,38 @@
+.website-layout
+{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 15fr;
+}
+
+.menu-bar > *
+{
+    padding: 1px 10px;
+    border: 1px outset buttonborder;
+    border-radius: 30px;
+    color: black;
+    background-color: rgb(215, 192, 151);
+    text-decoration: none;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu-bar{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: rgb(197, 199, 188);
+    border-radius: 50px;
+    justify-content: flex-end;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size: 4rem;
+}
